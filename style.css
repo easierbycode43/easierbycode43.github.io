@@ -1,3 +1,14 @@
+body iframe {
+  border: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s 1s;
+}
+
+
+
 a, .btn-outline-secondary {
   color: #003100;
 }
@@ -11,7 +22,7 @@ a, .btn-outline-secondary {
   display: flex;
   align-items: center;
 }
-.card-body > h6:first-of-type {
+.card-body > a:first-of-type {
   margin: 15px 0 44px;
   text-decoration: none;
 }
@@ -55,16 +66,16 @@ i.eci {
 }
 @font-face {
   font-family: "garden1";
-  src: url("./garden1.eot");
-  src: url("./garden1.eot#iefix")
+  src: url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.eot?2081159299");
+  src: url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.eot?2081159299#iefix")
       format("embedded-opentype"),
-    url("./garden1.woff2")
+    url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.woff2?2081159299")
       format("woff2"),
-    url("./garden1.woff")
+    url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.woff?2081159299")
       format("woff"),
-    url("./garden1.ttf")
+    url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.ttf?2081159299")
       format("truetype"),
-    url("./garden1.svg#garden1")
+    url("https://cors-anywhere.herokuapp.com/https://community43.org/wp-content/uploads/elementor_icons_files/fontello-525ece48.zip/fontello-525ece48/font/garden1.svg?2081159299#garden1")
       format("svg");
   font-weight: normal;
   font-style: normal;
