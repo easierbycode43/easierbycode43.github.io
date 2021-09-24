@@ -1,3 +1,9 @@
+.row-mb {
+  margin-bottom: var(--bs-gutter-y);
+}
+
+
+
 .blog-footer {
   padding: 2.5rem 0;
   color: #727272;
