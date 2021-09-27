@@ -1,3 +1,19 @@
+header.site-header {
+  border-top: 14px solid #23a455;
+}
+header.site-header:before, header.site-header:after {
+  position: absolute;
+  top: -14px;
+  right: 0;
+  border-top: 14px solid #e87824;
+  content: "";
+  width: 62.5%;
+}
+header.site-header:after {
+  width: 22.5%;
+  border-top-color: #f1b533;
+}
+
 .row-mb {
   margin-bottom: var(--bs-gutter-y);
 }
@@ -218,4 +234,22 @@ i.eci {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+
+
+.dropdown.community43 {
+  width: 37.5%;
+  background-color: #23a455;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown.clinic43 {
+  position: absolute;
+  right: 0;
+  width: 22.5%;
+  background-color: #f1b533;
+  display: flex;
+  justify-content: center;
 }
