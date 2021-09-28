@@ -1,3 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap);
+
+.community43, .clinic43  {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clinic43 > a  {
+  color: #4b0f00;
+	font-weight: 200;
+	text-shadow: 0 1px #96ffc8;
+}
+
+.community43 > a {
+  color: #003100;
+}
+
+header.site-header {
+  border-top: 14px solid #23a455;
+}
+header.site-header:before, header.site-header:after {
+  position: absolute;
+  top: -14px;
+  right: 0;
+  border-top: 14px solid #e87824;
+  content: "";
+  width: 62.5%;
+}
+header.site-header:after {
+  width: 22.5%;
+  border-top-color: #f1b533;
+}
+
 .row-mb {
   margin-bottom: var(--bs-gutter-y);
 }
@@ -146,16 +178,16 @@ i.eci {
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(255, 255, 202, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #8e8e8e;
+  color: #420000;
   transition: color 0.15s ease-in-out;
 }
 .site-header a:hover {
-  color: #fff;
+  color: #750500;
   text-decoration: none;
 }
 
@@ -221,4 +253,23 @@ i.eci {
 }
 
 
-/*# sourceMappingURL=/style.8c2cc59d.css.map */
+
+.dropdown.community43 {
+  width: 37.5%;
+  /* background-color: #23a455; */
+  background-color: #96ffc8;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown.clinic43 {
+  position: absolute;
+  right: 0;
+  width: 22.5%;
+  /* background-color: #f1b533; */
+  background-color: #ffffd9;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=/style.e3359c1d.css.map */
